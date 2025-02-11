@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import axios from 'axios';
-import { UserType } from 'common-lib';
+import { UserType } from 'poc-bff-common-lib';
 
 @Injectable()
 export class AppService {
